@@ -1,16 +1,22 @@
 #include <stdio.h>
-
+#include <stdlib.h>
+/* more headers goes there */
 /**
  * main - Entry point
  *
- * Return: 0
+ * Description: 'Numbers'
+ *
+ * Return: Always 0 (Success)
  */
+/* betty style doc for function main goes there */
 int main(void)
 {
-		int a;
+		int i;
 
-		for (a = 0; a < 10; a++)
-			printf("%i", a);
+		for (i = 0; i < 10; i++)
+		{
+			printf("%d", i);
+			}
 			printf("\n");
-		return (0);
+			return (0);
 }
